@@ -11,7 +11,7 @@ class ArticlesController < ApplicationController
     @article = Article.create(article_params)
 
     # redirect the user
-    redirect_to articles_url
+    redirect_to articles_path
   end
 
   private
